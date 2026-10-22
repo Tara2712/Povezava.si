@@ -7,13 +7,13 @@ Sporočila pišemo v **slovenščini** in obvezno vključimo Jira identifikator.
 **Format:**
 
 ```
-PROJ-XX Kratek opis spremembe
+KAN-XX Kratek opis spremembe
 ```
 
 **Primeri:**
 
 ```
-PROJ-1 Dodano zbiranje podatkov iz OPSI API-ja
+KAN-1 Dodano zbiranje podatkov iz OPSI API-ja
 ```
 
 **Pravila:**
@@ -56,8 +56,8 @@ Koda se piše v **angleščini** v vseh komponentah.
 **Format imen vej:**
 
 ```
-feat/PROJ-XX-kratek-opis
-fix/PROJ-XX-kratek-opis
+feat/KAN-XX-kratek-opis
+fix/KAN-XX-kratek-opis
 ```
 
 ---
