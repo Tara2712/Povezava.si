@@ -26,7 +26,7 @@ KAN-1 Dodano zbiranje podatkov iz OPSI API-ja
 
 ### Standardi kodiranja
 
-Koda se piše v **angleščini** v vseh komponentah.
+Koda se piše v **slovenščini** v vseh komponentah.
 
 | Kontekst                                     | Konvencija       | Primer                     |
 | -------------------------------------------- | ---------------- | -------------------------- |
