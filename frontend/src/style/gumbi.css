@@ -1,0 +1,44 @@
+.button-primary,
+.button-secondary,
+.button-light {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 23px;
+  padding: 16px 21px;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 650;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.button-primary {
+  color: white;
+  background: var(--green);
+}
+
+.button-primary:hover {
+  background: var(--green-dark);
+  transform: translateY(-2px);
+}
+
+.button-secondary {
+  padding-inline: 0;
+  color: var(--ink);
+}
+
+.button-secondary:hover {
+  color: var(--green);
+}
+
+.button-light {
+  margin-top: 17px;
+  color: var(--green-dark);
+  background: white;
+}
+
+.button-light:hover {
+  transform: translateY(-2px);
+  background: #eaf0e8;
+}

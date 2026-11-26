@@ -1,0 +1,20 @@
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+main {
+  overflow: hidden;
+  background: var(--white);
+}
+
+.section-container {
+  width: min(1160px, calc(100% - 64px));
+  margin-inline: auto;
+}
+
+@media (max-width: 700px) {
+  .section-container {
+    width: min(100% - 36px, 540px);
+  }
+}
