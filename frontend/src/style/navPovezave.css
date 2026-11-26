@@ -1,0 +1,13 @@
+.main-nav a,
+.footer-nav a {
+  color: #536059;
+  font-size: 18px;
+  font-weight: 550;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.main-nav a:hover,
+.footer-nav a:hover {
+  color: var(--green);
+}

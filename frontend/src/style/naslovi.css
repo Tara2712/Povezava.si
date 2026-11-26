@@ -1,0 +1,53 @@
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--green);
+  font-size: 10px;
+  font-weight: 750;
+  letter-spacing: 2px;
+}
+
+.eyebrow-line {
+  width: 25px;
+  height: 1px;
+  background: var(--green);
+}
+
+.section-heading h2 span,
+.big-picture-content h2 span,
+.sources-heading h2 span,
+.how-heading h2 span {
+  color: var(--green);
+}
+
+.section-heading h2,
+.big-picture-content h2,
+.sources-heading h2,
+.how-heading h2 {
+  margin: 20px 0;
+  color: var(--ink);
+  font-size: clamp(36px, 4.2vw, 52px);
+  font-weight: 650;
+  letter-spacing: -2.4px;
+  line-height: 1.12;
+}
+
+.section-heading > p,
+.sources-heading > p,
+.how-heading > p {
+  max-width: 520px;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+@media (max-width: 700px) {
+  .section-heading h2,
+  .big-picture-content h2,
+  .sources-heading h2,
+  .how-heading h2 {
+    font-size: 38px;
+    letter-spacing: -1.8px;
+  }
+}
