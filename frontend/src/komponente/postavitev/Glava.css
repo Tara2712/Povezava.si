@@ -37,6 +37,24 @@
   font-size: 17px;
 }
 
+.nav-uporabnik {
+  display: inline-flex;
+  align-items: center;
+}
+
+.nav-uporabnik {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #536059;
+  transition: color 0.2s, transform 0.2s;
+}
+
+.nav-uporabnik:hover {
+  color: var(--green);
+  transform: translateY(-2px);
+}
+
 @media (max-width: 950px) {
   .main-nav {
     gap: 17px;

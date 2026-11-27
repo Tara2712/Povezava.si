@@ -1,6 +1,7 @@
 import Logotip from "./Logotip";
 import { NAVIGACIJSKE_POVEZAVE } from "../../podatki/navigacija";
 import "./Noga.css";
+import { Link } from "react-router-dom";
 
 function Noga() {
   return (
@@ -15,11 +16,17 @@ function Noga() {
         </p>
 
         <nav className="footer-nav">
-          {NAVIGACIJSKE_POVEZAVE.map((povezava) => (
-            <a href={povezava.href} key={povezava.href}>
-              {povezava.oznaka}
-            </a>
-          ))}
+          {NAVIGACIJSKE_POVEZAVE.map((povezava) =>
+            povezava.href.startsWith("/") ? (
+              <Link to={povezava.href} key={povezava.oznaka}>
+                {povezava.oznaka}
+              </Link>
+            ) : (
+              <a href={povezava.href} key={povezava.oznaka}>
+                {povezava.oznaka}
+              </a>
+            )
+          )}
         </nav>
 
         <a className="footer-app-link" href="/app">

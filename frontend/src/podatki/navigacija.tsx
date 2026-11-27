@@ -6,7 +6,7 @@ export interface NavigacijskaPovezava {
 export const NAVIGACIJSKE_POVEZAVE: NavigacijskaPovezava[] = [
   { href: "#prednosti", oznaka: "Prednosti" },
   { href: "#platforma", oznaka: "Platforma" },
-  { href: "#ustvari", oznaka: "Ustvari povezavo" },
-  { href: "#iskanje", oznaka: "Poišči povezavo" },
+  { href: "/prijava", oznaka: "Ustvari povezavo" },
+  { href: "/prijava", oznaka: "Poišči povezavo" },
   
 ];
