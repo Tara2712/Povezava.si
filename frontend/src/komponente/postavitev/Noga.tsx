@@ -1,6 +1,7 @@
 import Logotip from "./Logotip";
 import { NAVIGACIJSKE_POVEZAVE } from "../../podatki/navigacija";
 import "./Noga.css";
+import { Link } from "react-router-dom";
 
 function Noga() {
   return (
